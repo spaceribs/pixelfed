@@ -11,6 +11,22 @@ version: '3'
 # if the volumes are properly shared between cluster members.
 
 services:
+## Reverse Proxy
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    networks:
+      - external
+      - internal
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - "./nginx.conf:/etc/nginx/nginx.conf"
+      - "./ssl/:/var/ssl/"
+    depends_on:
+      - app
+
 ## App and Worker
   app:
     # Comment to use dockerhub image
@@ -26,10 +42,9 @@ services:
       - app-bootstrap:/var/www/bootstrap
       - "./.env.docker:/var/www/.env"
     networks:
-      - external
       - internal
     ports:
-      - "8080:80"
+      - "80:80"
     depends_on:
       - db
       - redis
@@ -46,7 +61,6 @@ services:
       - app-storage:/var/www/storage
       - app-bootstrap:/var/www/bootstrap
     networks:
-      - external
       - internal
     command: gosu www-data php artisan horizon
     depends_on:

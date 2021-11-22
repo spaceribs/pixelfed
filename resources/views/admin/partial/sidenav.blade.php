@@ -2,7 +2,7 @@
 	<div class="scrollbar-inner">
 		<div class="sidenav-header  align-items-center">
 			<a class="navbar-brand" href="/">
-				<img src="/img/pixelfed-icon-color.svg" class="navbar-brand-img">
+				<img src="/img/kithkin-klown.png" class="navbar-brand-img">
 			</a>
 		</div>
 		<div class="navbar-inner">

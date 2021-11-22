@@ -50,18 +50,18 @@
 			<div class="row pt-md-5 mt-5">
 				<div class="col-12 col-md-6 d-none d-md-block">
 					<div class="m-my-4">
-						<p class="display-2 font-weight-bold">Photo Sharing</p>
-						<p class="h1 font-weight-bold">For Everyone.</p>
+						<p class="display-3 font-weight-bold">Photos By and For Aarons</p>
+						<p class="h3">We're both named Aaron</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-5 offset-md-1">
 					<div>
 						<div class="pt-md-3 d-flex justify-content-center align-items-center">
-							<img src="/img/pixelfed-icon-color.svg" loading="lazy" width="50px" height="50px">
-							<span class="font-weight-bold h3 ml-2 pt-2">Pixelfed</span>
+							<img src="/img/kithkin-klown.png" loading="lazy" width="50px" height="50px">
+							<span class="font-weight-bold h3 ml-2 pt-2">MisterMi.me</span>
 						</div>
 						<div class="d-block d-md-none">
-							<p class="font-weight-bold mb-0 text-center">Photo Sharing. For Everyone</p>
+							<p class="font-weight-bold mb-0 text-center">We Live. In a Society.</p>
 						</div>
 						<div class="card my-4 shadow-none border">
 							<div class="card-body px-lg-5">

@@ -44,7 +44,7 @@
       </div>
       <div>
         <a class="small font-weight-bold text-muted pr-1" href="{{config('app.url')}}" target="_blank">{{config('pixelfed.domain.app')}}</a>
-        <img src="/img/pixelfed-icon-color.svg" width="26px">
+        <img src="/img/kithkin-klown.png" width="26px">
       </div>
     </div>
     <div class="card-body pb-1">
